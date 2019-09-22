@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 0 2rem;
 }
 
 .App-logo {
@@ -20,4 +21,17 @@
 
 .App-intro {
   font-size: large;
+}
+
+.ui.cards {
+  justify-content: center;
+}
+
+.image img {
+  transition: all 0.2s ease-in-out;
+}
+
+.image img:hover {
+  cursor: pointer;
+  transform: scale(1.025);
 }
